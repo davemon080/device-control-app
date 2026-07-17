@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Hardware & Sensors -->
+  <key>NSCameraUsageDescription</key>
+  <string>We need camera access to capture photos and videos for device monitoring and security features.</string>
+  
+  <key>NSMicrophoneUsageDescription</key>
+  <string>We need microphone access for audio recording and two-way communication features.</string>
+  
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>We need access to your precise location for location-based device automation and control.</string>
+  
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>We need background location access for location-based automation and geofencing features.</string>
+  
+  <key>NSLocationAlwaysUsageDescription</key>
+  <string>We need background location access to enable location-based device automation.</string>
+  
+  <key>NSBluetoothPeripheralUsageDescription</key>
+  <string>We need Bluetooth access to connect to and control your smart devices.</string>
+  
+  <key>NSBluetoothAlwaysUsageDescription</key>
+  <string>We need Bluetooth access to continuously discover and connect to nearby devices.</string>
+  
+  <key>NSMotionUsageDescription</key>
+  <string>We need motion and fitness data access for device activity tracking features.</string>
+  
+  <key>NSHealthSharingUsageDescription</key>
+  <string>We need health data access to integrate with fitness and biometric devices.</string>
+
+  <!-- Personal Data & Files -->
+  <key>NSContactsUsageDescription</key>
+  <string>We need access to your contacts for device sharing and multi-user functionality.</string>
+  
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>We need access to your photos and videos for camera device playback and management.</string>
+  
+  <key>NSPhotoLibraryAddOnlyUsageDescription</key>
+  <string>We need permission to save photos and videos captured by your device cameras.</string>
+  
+  <key>NSCalendarsUsageDescription</key>
+  <string>We need access to your calendar for scheduling device automation and events.</string>
+  
+  <key>NSRemindersUsageDescription</key>
+  <string>We need access to your reminders to create device-related notifications and alerts.</string>
+
+  <!-- Communication -->
+  <key>NSPhoneNumbersUsageDescription</key>
+  <string>We need access to phone information for device integration and communication features.</string>
+
+  <!-- Notification -->
+  <key>NSUserNotificationUsageDescription</key>
+  <string>We need permission to send you notifications about your device status and alerts.</string>
+
+  <!-- Security & Biometrics -->
+  <key>NSFaceIDUsageDescription</key>
+  <string>We need Face ID access to securely authenticate and control your smart home devices.</string>
+
+  <!-- Required capabilities -->
+  <key>UIRequiredDeviceCapabilities</key>
+  <array>
+    <string>bluetooth-le</string>
+    <string>location-services</string>
+    <string>camera</string>
+    <string>microphone</string>
+  </array>
+
+  <!-- Background modes -->
+  <key>UIBackgroundModes</key>
+  <array>
+    <string>location</string>
+    <string>bluetooth-central</string>
+    <string>bluetooth-peripheral</string>
+    <string>remote-notification</string>
+  </array>
+</dict>
+</plist>

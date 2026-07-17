@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Hardware & Sensors -->
+  <key>NSCameraUsageDescription</key>
+  <string>Camera access is needed to capture photos and videos for device monitoring and security features.</string>
+  
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Microphone access is needed for audio recording and two-way communication features.</string>
+  
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>Your precise location is needed for location-based device automation and control.</string>
+  
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>Background location access is needed for location-based automation and geofencing.</string>
+  
+  <key>NSLocationAlwaysUsageDescription</key>
+  <string>Background location access enables location-based device automation.</string>
+  
+  <key>NSBluetoothPeripheralUsageDescription</key>
+  <string>Bluetooth access is needed to connect to and control your smart devices.</string>
+  
+  <key>NSBluetoothAlwaysUsageDescription</key>
+  <string>Continuous Bluetooth access is needed to discover and connect to nearby devices.</string>
+  
+  <key>NSMotionUsageDescription</key>
+  <string>Motion data access is needed for device activity tracking features.</string>
+  
+  <key>NSHealthSharingUsageDescription</key>
+  <string>Health data access integrates with fitness and biometric devices.</string>
+  
+  <key>NSHealthUpdateUsageDescription</key>
+  <string>Health data access integrates with fitness and biometric devices.</string>
+
+  <!-- Personal Data & Files -->
+  <key>NSContactsUsageDescription</key>
+  <string>Contact access is needed for device sharing and multi-user functionality.</string>
+  
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Photo library access is needed for camera device playback and management.</string>
+  
+  <key>NSPhotoLibraryAddOnlyUsageDescription</key>
+  <string>Permission to save photos and videos captured by your device cameras.</string>
+  
+  <key>NSCalendarsUsageDescription</key>
+  <string>Calendar access is needed for scheduling device automation and events.</string>
+  
+  <key>NSRemindersUsageDescription</key>
+  <string>Reminders access is needed to create device-related notifications and alerts.</string>
+
+  <!-- Communication -->
+  <key>NSHomeKitUsageDescription</key>
+  <string>HomeKit access is needed for smart home device integration and control.</string>
+
+  <!-- Notification -->
+  <key>NSUserNotificationUsageDescription</key>
+  <string>Notification permission is needed to send alerts about device status and events.</string>
+
+  <!-- Security & Biometrics -->
+  <key>NSFaceIDUsageDescription</key>
+  <string>Face ID authentication securely authenticates and controls your smart devices.</string>
+
+  <key>NSLocalNetworkUsageDescription</key>
+  <string>Local network access is needed to discover and control devices on your network.</string>
+
+  <key>NSBonjourServiceTypes</key>
+  <array>
+    <string>_http._tcp</string>
+    <string>_hap._tcp</string>
+  </array>
+
+  <!-- Required device capabilities -->
+  <key>UIRequiredDeviceCapabilities</key>
+  <array>
+    <string>bluetooth-le</string>
+    <string>location-services</string>
+    <string>camera</string>
+    <string>microphone</string>
+    <string>homekit</string>
+  </array>
+
+  <!-- Background modes -->
+  <key>UIBackgroundModes</key>
+  <array>
+    <string>location</string>
+    <string>bluetooth-central</string>
+    <string>bluetooth-peripheral</string>
+    <string>remote-notification</string>
+    <string>processing</string>
+    <string>voip</string>
+  </array>
+
+  <!-- Privacy settings -->
+  <key>NSPrivacyTracking</key>
+  <false/>
+  
+  <key>NSPrivacyTrackingDomains</key>
+  <array/>
+</dict>
+</plist>

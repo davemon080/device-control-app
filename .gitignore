@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.gradle/
+build/
+
+# iOS/Flutter
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+
+# Android/Flutter
+android/.gradle/
+android/build/
+android/local.properties
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+coverage/
+
+# React Native
+*.jsbundle
+.watchmanconfig
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
